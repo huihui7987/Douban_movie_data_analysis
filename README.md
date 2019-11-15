@@ -11,8 +11,11 @@
 
 所需环境
 ----
-anaconda 
+anaconda  
+
 pycharm  
+
+WAMPserver
 
 数据集
 ----
