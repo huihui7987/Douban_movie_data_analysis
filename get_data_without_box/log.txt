@@ -1,0 +1,5 @@
+连接超时，url地址是:https://movie.douban.com/subject/26100958/
+连接超时，url地址是:https://movie.douban.com/subject/30170448/
+连接超时，url地址是:https://movie.douban.com/subject/26899146/
+连接超时，url地址是:https://movie.douban.com/subject/30334073/
+连接超时，url地址是:https://movie.douban.com/subject/26728669/

@@ -1,0 +1,24 @@
+# 写个正则表达式把超时的电影抓一下
+import re
+import time
+from get_data_without_box.get_movie_info import get_details_without_box
+fr = open('log.txt', 'r', encoding='utf-8')
+fw = open('movie_timeout.txt', 'a', encoding='utf-8')
+lines = fr.readlines()
+
+for line in lines:
+    url_re = re.search('是:(.*)', str(line), re.S)
+    if url_re:
+        movie_url = url_re.group(1).strip()
+        result = get_details_without_box(movie_url)
+        record = result['name'] + ',' + movie_url + ',' + result['rate'] + ',' + result['rating_people'] \
+                 + ',' + result['director'] + ',' + result['writer'] + ',' + result['actor'] + ',' \
+                 + result['genre'] + ',' + result['place'] + ',' \
+                 + result['language'] + ',' + result['year'] \
+                 + ',' + result['movietime'] + ',' + result['comment'] + ',' + result['review'] + '\n'
+        print(record)
+        fw.write(record)
+        time.sleep(3)
+
+fr.close()
+fw.close()
