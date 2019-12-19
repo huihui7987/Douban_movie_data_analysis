@@ -3,8 +3,8 @@
 
 Introduction
 -------
-graduation project in spring 2019  
-My first Data Science project  
+Graduation Project in Spring 2019  
+My first Data Science Project  
   
 Movie Data Collection, Cleaning, Visualization,  Prediction Machine learning Model
 
@@ -15,20 +15,20 @@ Thanks to Mr. Honlan's [fullstack-data-engineer](https://github.com/Honlan/fulls
 
 Development Environment
 ----
-Anaconda 
-PyCharm 
-WAMPserver
+Anaconda  
+PyCharm   
+WAMPserver  
 
 Dataset
 ----
-Douban movie dataset（By Web Crawler）   
+Douban Movie Dataset（By Web Crawler）   
 TMDB 5000  （IMDB movie dataset）  
 
 Technologies Used
 ----
 Collection：Request , BeautifulSoup , Regular Expression  
 Cleaning：NumPy , Pandas   
-storage： MySql , WAMP   
+Storage： MySql , WAMP   
 Visualization：pandas , matplotlib , WordCloud  
 Prediction Model：Scikit-Learn  
 
