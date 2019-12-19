@@ -40,13 +40,21 @@ Files Description
 `getdata/get_movie_info.py ` 
 Obtained the movie name and details page link from Douban API  
 Used BeautifulSoup and regular expression to get the director, actor, genre, rating, year, country, language and other information of each movie to generate the original movie data set  
+  
 `getdata/txtdata`  Already collected movie data  
+  
 `clean_and_save/data_clean.py` Used Pandas to get the data and started data cleaning processing  
+  
 `clean_and_save/data_clean.py` Saved the current data set or read the data set from the database  
-`analyze_data/plot1.py,plot2.py,plot3.py,tmdb5000.py` Used matplotlib to analyze and generate charts  
+  
+`analyze_data/plot1.py,plot2.py,plot3.py,tmdb5000.py` Used matplotlib to analyze and generate charts 
+  
 `clean_and_save/image` Already generate charts   
+  
 `machine_learning/choose_model.py`Machine Learning Preprocessing , Applied Machine Learning models , Assess accuracy  
+  
 `machine_learning/plot_model.py` Draw the scatter plots of the training and test data for each model  
+  
 
 
 
