@@ -1,5 +1,61 @@
 # Douban_movie_data_analysis
 
+
+Introduction
+-------
+graduation project in spring 2019  
+My first Data Science project  
+  
+Movie Data Collection, Cleaning, Visualization,  Prediction Machine learning Model
+
+Special Thanks
+------
+Thanks to Mr. Honlan's [fullstack-data-engineer](https://github.com/Honlan/fullstack-data-engineer)  
+[His github](https://github.com/Honlan)
+
+Development Environment
+----
+Anaconda 
+PyCharm 
+WAMPserver
+
+Dataset
+----
+Douban movie dataset（By Web Crawler）   
+TMDB 5000  （IMDB movie dataset）  
+
+Technologies Used
+----
+Collection：Request , BeautifulSoup , Regular Expression  
+Cleaning：NumPy , Pandas   
+storage： MySql , WAMP   
+Visualization：pandas , matplotlib , WordCloud  
+Prediction Model：Scikit-Learn  
+
+
+Files Description
+----
+
+`getdata/get_douban.py `  
+`getdata/get_movie_info.py ` 
+Obtained the movie name and details page link from Douban API  
+Used BeautifulSoup and regular expression to get the director, actor, genre, rating, year, country, language and other information of each movie to generate the original movie data set  
+`getdata/txtdata`  Already collected movie data  
+`clean_and_save/data_clean.py` Used Pandas to get the data and started data cleaning processing  
+`clean_and_save/data_clean.py` Saved the current data set or read the data set from the database  
+`analyze_data/plot1.py,plot2.py,plot3.py,tmdb5000.py` Used matplotlib to analyze and generate charts  
+`clean_and_save/image` Already generate charts   
+`machine_learning/choose_model.py`Machine Learning Preprocessing , Applied Machine Learning models , Assess accuracy  
+`machine_learning/plot_model.py` Draw the scatter plots of the training and test data for each model  
+
+
+
+
+
+
+
+
+
 背景
 -------
 2019年春毕业设计  
