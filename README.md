@@ -11,7 +11,7 @@ Movie Data Collection, Cleaning, Visualization,  Prediction Machine learning Mod
 Special Thanks
 ------
 Thanks to Mr. Honlan's [fullstack-data-engineer](https://github.com/Honlan/fullstack-data-engineer)  
-[His github](https://github.com/Honlan)
+[Honlan's Github](https://github.com/Honlan)
 
 Development Environment
 ----
