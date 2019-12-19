@@ -28,8 +28,8 @@ Technologies Used
 ----
 Collection：Request , BeautifulSoup , Regular Expression  
 Cleaning：NumPy , Pandas   
-Storage： MySql , WAMP   
-Visualization：pandas , matplotlib , WordCloud  
+Storage： MySql , WAMPServer  
+Visualization：Pandas , Matplotlib , WordCloud  
 Prediction Model：Scikit-Learn  
 
 
