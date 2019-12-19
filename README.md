@@ -49,7 +49,7 @@ Used BeautifulSoup and regular expression to get the director, actor, genre, rat
   
 `analyze_data/plot1.py,plot2.py,plot3.py,tmdb5000.py` Used matplotlib to analyze and generate charts 
   
-`clean_and_save/image` Already generate charts   
+`clean_and_save/image` Already generated charts   
   
 `machine_learning/choose_model.py`Machine Learning Preprocessing , Applied Machine Learning models , Assess accuracy  
   
